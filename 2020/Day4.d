@@ -70,5 +70,5 @@ void main(string[] args) {
         }
         if (f) ++part2;
     }
-    writef("%d %d\n", part1, part2);
+    writef("%d %d\n kk", part1, part2);
 }
