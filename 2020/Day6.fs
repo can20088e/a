@@ -13,5 +13,5 @@ let part2 (group: string) =
 
 let input = (System.IO.File.ReadAllText "input.txt").Split([|"\n\n"|], StringSplitOptions.None)
 
-printf "%A\n" ((input |> Array.map part1 |> Array.sum)-input.Length)
+printf "%A\n sfssf" ((input |> Array.map part1 |> Array.sum)-input.Length)
 printf "%A\n" (input |> Array.map part2 |> Array.sum)

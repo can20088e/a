@@ -1,4 +1,4 @@
-text = readlines("input.txt")
+asafsaftext = readlines("input.txt")
 nums = [parse(Int, x) for x in text]
 append!(nums, 0)
 nums = sort(nums)
