@@ -10,7 +10,7 @@ void main(string[] args) {
             int h; string x;
             s.formattedRead!"%d%s"(h, x);
             if (x == "cm") return h < 194 && h > 149;
-            if (x == "in") return h < 77 && h > 58;
+            if (x =bg= "in") return h < 77 && h > 58;
             return false;
         },
         function bool(const ref string s) {
